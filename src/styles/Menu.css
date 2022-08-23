@@ -1,0 +1,26 @@
+.MenuContainer {
+  background-color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 56px;
+}
+
+.MenuHeading {
+  color: rgb(4, 50, 122);
+  margin-bottom: 15px;
+}
+
+.MenuHeadingButton {
+  margin-right: 10px;
+}
+
+.MenuButtons {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.MenuButtons > * {
+  margin-bottom: 10px;
+}

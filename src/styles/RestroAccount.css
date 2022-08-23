@@ -1,0 +1,12 @@
+.RestroAccountContainer {
+  background-color: whitesmoke;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 56px;
+}
+
+.RestroAccountHeading {
+  color: rgb(4, 50, 122);
+  margin-bottom: 15px;
+}

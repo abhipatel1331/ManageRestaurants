@@ -1,0 +1,54 @@
+.RestroCreateContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.RestroCreateFormContainer {
+  user-select: none;
+  padding: 20px;
+  min-width: 300px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267),
+    0 6px 20px 0 rgba(0, 0, 0, 0.267);
+  cursor: pointer;
+}
+
+.RestroCreateForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.RestroCreateFormInput {
+  font-size: large;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid rgb(248, 168, 20);
+  padding: 5px;
+}
+
+.RestroCreateFormInput:focus {
+  border: 2px solid rgb(6, 98, 247);
+  transition: 0.3s ease-in-out;
+}
+
+/* .wrapper {
+  background-color: whitesmoke;
+} */
+
+.RestroCreateEmail {
+  color: rgb(6, 98, 247);
+}
+
+.CreateRestaurantButtons {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
